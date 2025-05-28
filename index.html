@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Radio Marcus  Inspired</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="logo-header">
+  <div class="logo-circle glow">📻</div>
+  <h1>Radio Marcus</h1>
+  <nav class="nav-menu">
+    <a href="#">Home</a>
+    <a href="#">Live</a>
+    <a href="#">Schedule</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+  <div id="particles-js"></div>
+    <header class="header">
+  <div class="container">
+  <h1>Radio Marcus</h1>
+    <nav class="nav">
+      <a href="#live">Live</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="live">
+  <div class="container">
+    <h2>Listen Live</h2>
+    <audio controls autoplay>
+      <source src="https://stream.zeno.fm/r2xirqlwpl3tv" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</section>
+
+<section class="schedule" id="schedule">
+  <div class="container">
+    <h2>Weekly Schedule</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Show</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>Morning Devotion</td>
+          <td>8:00 AM - 9:00 AM</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Gospel Music</td>
+          <td>10:00 AM - 12:00 PM</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>Community Talk</td>
+          <td>2:00 PM - 3:00 PM</td>
+        </tr>
+        </tr>
+           <td>Thursday</td>
+           <td>Live songs</td>
+           <td>8:00 AM - 10:00 AM</td>
+        </tr>
+           <td>Friday</td>
+           <td>Streams</td>
+           <td>12:00 PM - 4:00 PM</td>
+        </tbody>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="news" id="news">
+  <div class="container">
+    <h2>Latest News</h2>
+    <article>
+      <h3>Community Outreach</h3>
+      <p>Join us for our upcoming outreach program next week.</p>
+    </article>
+    <article>
+      <h3>New DJ Launch</h3>
+      <p>Meet our new DJ who will bring fresh vibes starting this Friday.</p>
+    </article>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 Radio Marcus Inspired. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,299 @@
+/* Reset & basics */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  body {
+  font-family: 'Poppins', sans-serif;
+  }
+  background: #fafafa;
+  color: rgb(0, 0, 0);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header */
+.header {
+  background: #2c3e50;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #1abc9c;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%);
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.hero audio {
+  width: 100%;
+  max-width: 400px;
+  outline: none;
+  border-radius: 5px;
+}
+
+/* Schedule */
+.schedule {
+  background: white;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.schedule h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.schedule table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  border: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.schedule th {
+  background-color: #1abc9c;
+  color: white;
+}
+
+.schedule tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* News */
+.news {
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+}
+
+.news h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.news article {
+  background: white;
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.08);
+}
+
+.news article h3 {
+  margin-top: 0;
+  color: #1abc9c;
+}
+
+/* Contact */
+.contact {
+  background: white;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact form {
+  max-width: 480px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+  padding: 0.8rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.contact button {
+  background: #1abc9c;
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: #16a085;
+}
+
+/* Footer */
+.footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .nav a {
+    margin-left: 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0; 
+  left: 0;
+  z-index: -1; /* Behind everything */
+  background: #1abc9c; /* fallback color, change if you want */
+}
+html, body {
+  height: 100%;
+  min-height: 100%;
+  padding: 0;
+  position: relative;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: #1abc9c; /* or your gradient */
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #1abc9c;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.logo-header {
+  display: flex;
+  align-items: center;
+  background-color: #0a0a23;
+  color: white;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.logo-circle {
+  background-color: #1abc9c;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  margin-right: 15px;
+}
+.logo-header {
+  display: flex;
+  align-items: center;
+  background-color: #0a0a23;
+  color: white;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.logo-circle {
+  background-color: #1abc9c;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  margin-right: 15px;
+}
