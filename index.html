@@ -116,26 +116,108 @@
     <p>&copy; 2025 PB LIVE RADIO  Inspired. All rights reserved.</p>
   </div>
 </footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Radio Footer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
 
-<script src="script.js"></script>
+    .footer {
+      background: url('https://www.transparenttextures.com/patterns/black-linen.png') repeat;
+      padding: 40px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: left;
+    }
+
+    .footer-column {
+      max-width: 220px;
+      margin: 10px;
+    }
+
+    .footer h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      background-color: #fff;
+      color: #000;
+      display: inline-block;
+      padding: 3px 8px;
+    }
+
+    .footer a {
+      color: #e94444;
+      text-decoration: none;
+      display: block;
+      margin: 5px 0;
+      transition: 0.3s;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footer i {
+      margin-right: 8px;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      .footer {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .footer-column {
+        max-width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <footer class="footer">
+    <div class="footer-column">
+      <h3>FIND US ON TUNEIN</h3>
+      <p><a href="#"><i class="fa fa-mobile-alt"></i> App available in <strong>Play Store</strong></a></p>
+    </div>
+
+    <div class="footer-column">
+      <h3>CONTACTS</h3>
+      <a href="https://radioexample.com"><i class="fa fa-globe"></i> radioexample.com</a>
+      <a href="mailto:radioexample@gmail.com"><i class="fa fa-envelope"></i> radioexample@gmail.com</a>
+      <a href="tel:+13054001127"><i class="fa fa-phone"></i> 1-305-400-1127</a>
+    </div>
+
+    <div class="footer-column">
+      <h3>LISTEN BY PHONE</h3>
+      <a href="tel:+16415525282"><i class="fa fa-phone"></i> USA +1-641-552-5282</a>
+      <a href="tel:+15639993839"><i class="fa fa-phone"></i> USA +1-563-999-3839</a>
+      <a href="tel:+18676751642"><i class="fa fa-phone"></i> Canada +1-867-675-1642</a>
+      <a href="tel:+33582961730"><i class="fa fa-phone"></i> France +33-582-961-730</a>
+    </div>
+
+    <div class="footer-column">
+      <h3>MAIN LINKS</h3>
+      <a href="#"><i class="fa fa-angle-right"></i> Home page</a>
+      <a href="#"><i class="fa fa-angle-right"></i> Shows schedule</a>
+      <a href="#"><i class="fa fa-angle-right"></i> Events archive</a>
+      <a href="#"><i class="fa fa-angle-right"></i> Contacts</a>
+    </div>
+  </footer>
+
 </body>
 </html>
-<section id="contact" style="background-color: #f8f8f8; padding: 20px;">
-  <h2>Contact Us</h2>
-  <p><strong>Phone:</strong> <a href="tel:+1-641-552-5282">+1-563-999-3839</a></p>
-  <p><strong>Email:</strong> <a href="mailto:info@pbliveradio.com">info@pbliveradio.com</a></p>
 
-  <p><strong>Studio:</strong> <a href="tel:+1-867-675-1642">+33-582-961-730</a></p>
-  <p><strong>Support:</strong> <a href="mailto:support@pbliveradio.com">support@pbliveradio.com</a></p>
-</section>
-<!-- Add this in your <head> to load Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-<!-- Then use this version of the contact section -->
-<section id="contact" style="background-color: #f8f8f8; padding: 20px;">
-  <h2>Contact Us</h2>
-  <p><i class="fas fa-phone"></i> <a href="tel:+1234567890">+1 (234) 567-890</a></p>
-  <p><i class="fas fa-envelope"></i> <a href="mailto:info@pbliveradio.com">info@pbliveradio.com</a></p>
-</section>
 
 
